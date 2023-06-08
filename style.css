@@ -1,0 +1,99 @@
+a{
+  font-size: 18px;
+  color: white 
+  
+}
+html, body {
+  height: 100%;
+  width: 100%;
+  
+}
+h1{
+  font-family: 'Times New Roman', Times, serif, Courier, monospace, Cochin, Times, 'Times New Roman', serif; color: #272728; font-size: 50px;
+  
+}
+body {
+  font-family: 'Times New Roman', Times, serif, monospace,'Times New Roman', Times, serif, Courier, monospace, Cochin, Times, 'Times New Roman', serif;
+  background-color: #171d29;
+  color: lightgray;
+  margin: 0;
+  overflow-x: hidden;
+  overflow: hidden;
+
+}
+#logout-button {
+padding: 5px 5px;
+    font-family: 'Times New Roman', Times, serif;
+    color:  #4065a0 ;
+    border-radius: 5px;
+    background-color: #f0f2f5;
+    border-color: #4065a0;
+    margin-left: 50px;
+  
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 15%;
+  background-color: #fefbfb;
+  border: 3px solid #4065a0;
+  
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 15%;
+  background-color: #ebf0ee;
+  border: 3px solid #3c7c78;
+}
+nav li a {
+  display: block;
+  color: #ffffff;
+  padding: 4px 8px;
+  text-decoration: none;
+  
+}
+nav li {
+  text-align: center;
+  border-bottom: 1px solid #d4d3ee;
+  
+}
+nav li:last-child {
+  border-bottom: none;
+  
+}
+nav li a.active {
+  background-color: rgb(167, 200, 236);
+  color: #4dc3ff;
+  
+}
+nav li a:hover:not(.active) {
+  background-color: #163045;
+  color: #56818a;
+  
+}
+.topnav {
+  background-color: #182e45;
+  overflow: hidden;
+  
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  
+}
+.topnav a:hover {
+  background-color: #171d29;
+  color: #fcfcfd;
+  
+}
+.topnav a.active {
+  background-color: #273f59;
+  color: #fdfcfc;
+}

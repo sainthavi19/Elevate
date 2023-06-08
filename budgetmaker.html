@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Budget Tracker</title>
+  <link rel="stylesheet" href="budgetmaker.css">
+</head>
+<body>
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="mainCal.html">Calendar</a>
+  <a href="journal.html">Journal</a>
+  <a href="budgetmaker.html">Budget</a>
+  <a href="waterintake.html">Water Intake</a>
+  <a href="userguide.html">User Guide</a>    
+</div>
+<div class="headerBar">
+  <header>
+    <h1 class="title">My Budget Tracker</h1>
+    <h2 class="topbar">Your Current Balance</h2>
+    <p>
+      <span class="currency">$</span>
+      <span class="balance"></span>
+    </p>
+  </header>
+</div>
+<div class="content">
+  <h3 class="secondTitle">Add a new transaction:</h3>
+  <div class="form">
+    <form id="expForm">
+      <div class="formLine left">
+        <label for="type">Type:</label>
+        <select id="type">
+          <option value="chooseOne">Choose one...</option>
+          <option value="income">Income</option>
+          <option value="expense">Expense</option>
+        </select>
+      </div>
+      <div class="formLine right">
+        <label for="name">Name:</label>
+        <input type="text" id="name">
+      </div>
+      <div class="formLine right">
+        <label for="amount">Amount:</label>
+        <input type="text" id="amount">
+      </div>
+      <button type="submit" class="buttonSave">Add to transactions</button>
+    </form>
+  </div>
+</div>
+<div class="content">
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Amount</th>
+        <th>Date</th>
+        <th>Options</th>
+      </tr>
+    </thead>
+    <tbody id="transactionTable"></tbody>
+  </table>
+</div>
+<script src="budgetmaker.js"></script>
+</body>
+</html>

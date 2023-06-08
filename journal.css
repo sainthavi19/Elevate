@@ -1,0 +1,126 @@
+
+h1{
+  font-family: 'Times New Roman', Times, serif, Courier, monospace, Cochin, Times, 'Times New Roman', serif; color: #ffffff; font-size: 50px;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif, monospace,'Times New Roman', Times, serif, Courier, monospace, Cochin, Times, 'Times New Roman', serif;
+  background-color: #171d29;
+  color: #171d29;
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #fefbfb;
+  border: 3px solid #4065a0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 15%;
+  background-color: #ebf0ee;
+  border: 3px solid #3c7c78;
+}
+
+nav li a {
+  display: block;
+  color: #ffffff;
+  padding: 4px 8px;
+  text-decoration: none;
+}
+
+nav li {
+  text-align: center;
+  border-bottom: 1px solid #d4d3ee;
+}
+
+nav li:last-child {
+  border-bottom: none;
+}
+
+nav li a.active {
+  background-color: rgb(167, 200, 236);
+  color: #4dc3ff;
+}
+
+nav li a:hover:not(.active) {
+  background-color: #163045;
+  color: #56818a;
+}
+
+.topnav {
+  background-color: #182e45;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #171d29;
+  color: #fcfcfd;
+}
+
+.topnav a.active {
+  background-color: #273f59;
+  color: #fdfcfc;
+}
+
+#addBtn {
+    padding: 5px 5px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    background-color: #4065a0;
+    border-color: #4065a0 ;
+  }
+
+#searchBtn {
+    padding: 5px 5px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #f4f5f6;
+    border-radius: 5px;
+    border-color: #f1f2f3 ;
+    margin-left: 1365px;
+    margin-top: -4.5%;
+    width: 5%;
+}
+
+#searchBtn:hover {
+  background-color: #171d29;
+  color: #4065a0;
+  border-radius: 5px;
+    border-color: #4065a0 ;
+}
+
+#searchBtn:focus {
+  outline: 2px solid #1444a1;
+}
+
+#delete {
+padding: 5px 5px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    background-color: #4065a0;
+    border-color: #4065a0 ;
+}
+
+#searchTxt {
+    padding: 5px 5px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    border-color: #000000 ;
+    width: 25%;
+    margin-left: 1000px;
+  }

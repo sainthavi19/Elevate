@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="monthView.css">
+  </head>
+  <style>
+.topnav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #182e45;
+  padding: 0px;
+  z-index: 9999;
+  
+}
+</style>
+      <div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="mainCal.html">Calendar</a>
+  <a href="journal.html">Journal</a>
+  <a href="budgetmaker.html">Budget</a>
+  <a href="waterintake.html">Water Intake</a>
+  <a href="userguide.html">User Guide</a>    
+</div>
+
+    <div id="container">
+      <div id="header">
+        <div id="monthDisplay"></div>
+<body>
+        <div>
+          <button id="weekview"> <a href="mainCal.html" style="color:#4065a0; background-color: #ffffff; " >Week View</a> </button>
+          <button id="backButton">Back</button>
+          <button id="nextButton">Next</button>
+        </div>
+     </div>
+      <div id="weekdays">
+        <div>Sunday</div>
+        <div>Monday</div>
+        <div>Tuesday</div>
+        <div>Wednesday</div>
+        <div>Thursday</div>
+        <div>Friday</div>
+        <div>Saturday</div>
+      </div>
+      <div id="calendar"></div>
+    </div>
+
+    <div id="newEventModal">
+      <h2>New Event</h2>
+
+      <input id="eventTitleInput" placeholder="Enter Event" />
+
+      <button id="saveButton">Save</button>
+      <button id="cancelButton">Cancel</button>
+    </div>
+
+    <div id="deleteEventModal">
+      <h2>Event</h2>
+
+      <p id="eventText"></p>
+
+      <button id="deleteButton">Delete</button>
+      <button id="closeButton">Close</button>
+    </div>
+
+    <div id="modalBackDrop"></div>
+
+    <script src="monthView.js"></script>
+  </body>
+</html>

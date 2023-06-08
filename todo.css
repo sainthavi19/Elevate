@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+#add-btn {
+padding: 5px 5px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    background-color: #4065a0;
+    border-color: #4065a0;
+    color: #ffffff
+  
+}
+#clear-btn {
+padding: 5px 5px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    background-color: #4065a0;
+    border-color: #4065a0;
+    color: #ffffff
+
+}
+#edit-btn {
+padding: 5px 5px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    background-color: #4065a0;
+    border-color: #4065a0;
+    color: #ffffff
+
+}
+.wrapper {
+  max-width: 350px;
+  margin: 200px auto; 
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  
+}
+.task-input input[type="text"],
+.task-input input[type="color"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  
+}
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+
+}
+.filters span {
+  cursor: pointer;
+  margin-right: 10px;
+  padding: 5px;
+}
+.filters span.active {
+  font-weight: bold;
+  border-bottom: 2px solid #333;
+}
+.task-box {
+  list-style-type: none;
+  margin-top: 20px;
+  max-height: 500px;
+  overflow-y: scroll;
+
+}
+.task-box li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  overflow-y: scroll;
+
+
+}
+.task-box li .task-delete {
+  color: #f44336;
+  font-size: 16px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+  margin-left: 10px;
+  overflow-y: scroll;
+
+}
+.task-box li .task-delete:hover {
+  color: #c62828;
+}
+
+.task-box li.completed {
+  background-color: #e0f2f1;
+
+}
+
+.task-box li.completed p {
+  text-decoration: line-through;
+  color: #999
+
+}
+
+.task-box li .task-details span {
+  margin-right: 10px;
+}
+
+@media (max-width: 400px) {
+  .wrapper {
+    margin: 10px;
+    padding: 10px;
+  }
+}
